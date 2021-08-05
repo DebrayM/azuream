@@ -1,0 +1,19 @@
+/* Mobile first */
+:root {
+    --blanc: white; 
+    --azuream: #00BEAA;
+    --violet: #4e009b;
+    --bordeau: #9B0067;
+    --noirtransparent: rgba(0, 0, 0, 0.85);
+    --couleurtxt: #837D7D;
+    --grisfoncé: #3E3E3E;
+    --textnoir:black;
+}
+body{
+    font-family: "century gothic", sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+.relatif{
+    position: relative;
+}

@@ -1,0 +1,53 @@
+/* style pour ordinateur */
+@media (min-width: 1200px) {
+header {
+    margin: none;
+    padding: none;
+}
+header img {
+    width: 12%;
+    margin: auto;
+    padding: none;
+}
+.logo{
+    width: 3em;
+    height: 3em;
+}
+header div {
+    display: flex;
+    align-items: center;
+}
+header nav {
+    display: flex;
+    justify-content: initial;
+    gap: 15px;
+    padding: none;
+    margin: none;
+}
+header h1 {
+    font-size: 2em;
+    margin-left: 20vh;
+}
+form input {
+    width: 80vh;
+    margin: auto;
+    font-size: 3em;
+    align-items: center;
+}
+
+.btnsubmit {
+    text-align: center;
+    font-weight: lighter;
+    font-size: x-large;
+    width: 30vh;
+    margin-top: 10vh;
+    margin-left: 55vh;
+    padding: 2vh 1vh 2vh 1vh;
+    box-shadow: 1vh 1vh 0 var(--grey);
+}
+form p {
+    margin-bottom: 5vh;
+}
+
+}
+
